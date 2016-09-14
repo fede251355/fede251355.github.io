@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<head>
+    <!--<link rel="stylesheet" type="text/css" href="index.css"> -->
+    <script src="index.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Criptografía</h1>
+    <h2>Entrada</h2>
+    <input id="entrada" type="text" size="40" oninput="desplazar()">
+    <h2>Desplazamiento</h2>
+    <input id="shift" type="number" min="0" max="25" value="0" oninput="desplazar()">
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
 </body>
 </html>
