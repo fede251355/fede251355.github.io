@@ -1,6 +1,6 @@
 function desplazar(){
     shift = document.getElementById("shift");
-    d = shift.valueAsNumber;
+    d = (shift.valueAsNumber%26+26)%26;
     entrada = document.getElementById("entrada");
     s = entrada.value;
     resultado = document.getElementById("resultado");
